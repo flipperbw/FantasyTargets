@@ -7,11 +7,7 @@ chrome.webRequest.onCompleted.addListener(
     });
   },
   // filters
-  { urls: [
-    "http://games.espn.com/ffl/format/playerpop/*",
-    "https://games.espn.com/ffl/format/playerpop/*"
-    ]
-  },
+  { urls: ["http://games.espn.com/ffl/format/playerpop/*"] },
   //permissions
   ["responseHeaders"]
 );
